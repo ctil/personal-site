@@ -1,19 +1,47 @@
-<div class="flex items-center justify-center min-h-screen">
-	<div class="inline-block w-auto text-center">
+<div>
+	<div class="inline-block w-auto text-center mb-5">
 		<div class="severance-bar w-full pb-0 mb-0"></div>
 		<h1 class="main-title pt-0 text-6xl">
-			<!-- <span style="font-size: 120%;">C</span>olin Tilleman -->
+			<!-- <span style="font-size: 110%;">C</span>olin Tilleman -->
 			Colin Tilleman
 		</h1>
 	</div>
+	<!-- <p>Hi, I'm Colin! I am a software engineer based in Colorado</p> -->
+
+	<h3 class="mt-3">Software Engineer</h3>
+	<a href="https://github.com/ctil" class="block">GitHub</a>
+	<a href="https://www.linkedin.com/in/colintilleman/" class="block"
+		>LinkedIn</a
+	>
+	<h3 class="mt-3">Musician</h3>
+	<a
+		href="https://open.spotify.com/artist/332RnBPhPJcMZdHI7ustr6"
+		class="block">Spotify</a
+	>
+	<a href="https://soundcloud.com/colintilleman" class="block">SoundCloud</a>
+	<h3 class="mt-3">Improvisor</h3>
+	<a href="https://www.instagram.com/improvcabaretmusical/" class="block"
+		>Improv Cabaret</a
+	>
+	<a href="https://www.instagram.com/onthespot_improv/" class="block"
+		>On The Spot</a
+	>
 </div>
 
 <style>
 	body {
 		background-color: black;
 		color: white;
-		/* background-color: #004E6B; */
-		/* color: #D0EAFD; */
+		/* color: #ffd700; */
+		/* background-color: #004e6b; */
+		/* color: #d0eafd; */
+	}
+
+	a {
+		color: #white;
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 
 	.main-title {
@@ -30,6 +58,9 @@
 	}
 
 	h3 {
-		font-size: 1.5rem;
+		font-size: 1.1rem;
+		line-height: 1.5;
+		border-bottom: 2px solid white; /* Match severance-bar height and color */
+		margin-bottom: 1rem; /* Add spacing below */
 	}
 </style>
