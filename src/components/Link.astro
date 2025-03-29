@@ -1,0 +1,28 @@
+---
+interface Props {
+    href: string;
+    title: string;
+}
+const { href, title } = Astro.props;
+---
+
+<span class="link-icon mr-1">➔</span>
+<a href={href} class="link" target="_blank" rel="noopener noreferrer">{title}</a
+><br />
+
+<style>
+    .link-icon {
+        color: white;
+        font-size: 0.8rem;
+    }
+
+    .link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .link:hover {
+        text-decoration: underline;
+        color: #4da6ff;
+    }
+</style>
