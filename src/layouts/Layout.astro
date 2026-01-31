@@ -1,5 +1,6 @@
 ---
 import "@fontsource-variable/roboto-flex";
+import Analytics from "@vercel/analytics/astro";
 ---
 
 <!doctype html>
@@ -13,6 +14,7 @@ import "@fontsource-variable/roboto-flex";
 	</head>
 	<body class="p-5">
 		<slot />
+		<Analytics />
 	</body>
 </html>
 
