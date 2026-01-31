@@ -8,9 +8,9 @@ Personal portfolio website built with Astro, TailwindCSS v4, and TypeScript.
 
 ## Commands
 
-- `npm run dev` - Start development server at localhost:4321
-- `npm run build` - Build production site to `./dist/`
-- `npm run preview` - Preview production build locally
+- `bun run dev` - Start development server at localhost:4321
+- `bun run build` - Build production site to `./dist/`
+- `bun run preview` - Preview production build locally
 
 No testing or linting frameworks are configured.
 
